@@ -107,7 +107,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             c.getString(c.getColumnIndex(DBAdapter.COL_NOTE)),
                             c.getString(c.getColumnIndex(DBAdapter.DAY)),
                             c.getString(c.getColumnIndex(DBAdapter.TIME))
-
                     );
                     if (day.equals(c.getString(c.getColumnIndex(DBAdapter.DAY)))){
                     noteList.add(note);
@@ -246,7 +245,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 return v;
             }
         }
-
-
 }
 
